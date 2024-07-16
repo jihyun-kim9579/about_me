@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+*{
+    margin:0;
+    padding:0;
+}
+/* 선택자 문법으로
+   클래스 선택자는 
+   .avatar-img
+*/
+
+.avatar-img{
+    margin: 85px;
+}
+.desc{
+    color:837B80;
+}
+
+h1{
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 20px;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.bg-color {
+    background-color:54AA62;
+}
+p{
+    text-align: center;
+    margin: 10px;
+}
+
+/* 아이디 선택자- 문서 내에서 한번만 */
+#light{
+    color:#0E0D0D;
+}
