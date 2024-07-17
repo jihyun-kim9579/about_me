@@ -8,11 +8,20 @@
    클래스 선택자는 
    .avatar-img
 */
+html {
+    scroll-behavior: smooth;
+}
+.block {
+    display: block;
+}
 
+.text-center{
+    text-align: center;
+}
 .avatar-img{
     margin: 85px;
 }
-.desc{
+.inline-block{
     color:rgb(131, 123, 128);
     display: inline-block;
 }
@@ -34,6 +43,12 @@ p{
     text-align: center;
     margin: 10px;
     font-weight:900;
+}
+.p-0{
+    padding: 0px;
+}
+.m-10{
+    margin:10px;
 }
 
 /* 아이디 선택자- 문서 내에서 한번만 */
