@@ -13,7 +13,8 @@
     margin: 85px;
 }
 .desc{
-    color:837B80;
+    color:rgb(131, 123, 128);
+    display: inline-block;
 }
 
 h1{
@@ -28,15 +29,20 @@ h2{
     font-size: 20px;
 }
 
-.bg-color {
-    background-color:54AA62;
-}
+
 p{
     text-align: center;
     margin: 10px;
+    font-weight:900;
 }
 
 /* 아이디 선택자- 문서 내에서 한번만 */
 #light{
-    color:#0E0D0D;
+    background-color:rgb(84, 170, 98);
+}
+
+.section3 {
+      background-color:rgb(84, 170, 98) ;
+      font-size: 14px; 
+      padding: 8px;
 }
